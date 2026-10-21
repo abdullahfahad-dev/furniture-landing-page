@@ -52,12 +52,9 @@ export default function HeroSection() {
 
             <Link
               to={secondaryCta.href}
-              className="inline-flex items-center justify-center gap-2.5 h-[50px] sm:h-[54px] px-6 sm:px-7 bg-white/90 hover:bg-white text-[#1C3328] text-[14px] font-medium rounded-full border border-white/40 backdrop-blur-md shadow-sm transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
+              className="inline-flex items-center justify-center gap-2.5 h-[50px] sm:h-[54px] px-6 sm:px-7 text-white backdrop-blur-sm text-[14px] font-medium rounded-full border border-white/40 backdrop-blur-md shadow-sm transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
             >
-              <span className="w-6 h-6 rounded-full bg-[#1C3328]/10 flex items-center justify-center">
-                <Play className="w-3 h-3 text-[#1C3328] fill-[#1C3328] ml-0.5" />
-              </span>
-              <span>{secondaryCta.text}</span>
+              <span>About</span>
             </Link>
           </div>
         </div>
